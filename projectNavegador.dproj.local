@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/08/09 19:18:24.000.929,=C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/08/09 19:41:26.000.677,C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\etec\Desktop\untNavegador.dfm</Transaction>
+    <Transaction>2022/08/09 19:41:26.000.677,C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\etec\Desktop\untNavegador.pas</Transaction>
+    <Transaction>2022/08/09 19:41:48.000.711,C:\Users\etec\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\etec\Desktop\navegadorDelphi\Project1.dproj</Transaction>
+    <Transaction>2022/08/09 19:42:23.000.190,C:\Users\etec\Desktop\untNavegador.dfm=C:\Users\etec\Desktop\navegadorDelphi\untNavegador.dfm</Transaction>
+    <Transaction>2022/08/09 19:42:23.000.190,C:\Users\etec\Desktop\untNavegador.pas=C:\Users\etec\Desktop\navegadorDelphi\untNavegador.pas</Transaction>
+    <Transaction>2022/08/09 19:42:59.000.202,C:\Users\etec\Desktop\navegadorDelphi\Project1.dproj=C:\Users\etec\Desktop\navegadorDelphi\projectNavegador.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

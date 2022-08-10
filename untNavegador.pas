@@ -1,0 +1,58 @@
+unit untNavegador;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Buttons,
+  Vcl.OleCtrls, SHDocVw, Vcl.Imaging.pngimage;
+
+type
+  TfrmNavegador = class(TForm)
+    pnlBotoes: TPanel;
+    edtEnder: TEdit;
+    Label1: TLabel;
+    btnAcessar: TBitBtn;
+    btnVolta: TBitBtn;
+    btnAvancar: TBitBtn;
+    btnAtualizar: TBitBtn;
+    web: TWebBrowser;
+    imgLogoBrowser: TImage;
+    procedure btnAcessarClick(Sender: TObject);
+    procedure btnVoltaClick(Sender: TObject);
+    procedure btnAvancarClick(Sender: TObject);
+    procedure btnAtualizarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmNavegador: TfrmNavegador;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmNavegador.btnAcessarClick(Sender: TObject);
+begin
+      web.Navigate(edtEnder.Text);
+end;
+
+procedure TfrmNavegador.btnAtualizarClick(Sender: TObject);
+begin
+      web.Refresh;
+end;
+
+procedure TfrmNavegador.btnAvancarClick(Sender: TObject);
+begin
+      web.GoForward;
+end;
+
+procedure TfrmNavegador.btnVoltaClick(Sender: TObject);
+begin
+      web.GoBack;
+end;
+
+end.
